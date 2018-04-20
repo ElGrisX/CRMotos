@@ -1,0 +1,32 @@
+.active {
+	color: red;
+	text-decoration: underline;
+}
+
+.routes {
+	padding-top: 7px;
+}
+
+.social a {
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+#wrapper {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#wrapper a{
+
+color: #FFFFFF;
+border-right: 2px solid white;
+padding-right: 5px;
+}
+
+.backgroundimage{
+
+	background-image: url("topbanner.jpg");
+}

@@ -1,0 +1,38 @@
+.main_container h2 {
+    color: #F00000;
+    font-family: 'gothammedium';
+    font-size: 26px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.ul li {
+
+	color: #333;
+	display: list-item;
+   	text-align: -webkit-match-parent;
+
+}
+
+body {
+    font-family: 'gothambook';
+    height: auto!important;
+}
+
+.centrar {
+text-align: center;
+width : 90%;
+height : 90%;
+
+}
+
+.main_container ul li {
+    color: #333;
+    list-style: none;
+    padding: 0 0 8px 8px;
+}

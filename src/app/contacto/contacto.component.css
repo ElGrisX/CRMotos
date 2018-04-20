@@ -1,0 +1,37 @@
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'gothambook';
+    height: auto!important;
+}
+
+.ul li {
+
+	color: #333;
+	display: list-item;
+   	text-align: -webkit-match-parent;
+
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+.main_container p {
+    font-size: 15px;
+    color: #7F7F7F;
+}

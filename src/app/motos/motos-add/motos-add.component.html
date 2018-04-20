@@ -1,0 +1,35 @@
+<body>
+	
+
+<form>
+<h1>Agregar Nueva Motocicleta</h1>
+<!--<fieldset> it is used to group form input controls.
+<legend> tag"it represents a caption for the
+parent fieldset"-->
+
+<div class="trans">
+<fieldset>
+<legend></legend>
+ <label>Nombre:</label>       <input type="text" name="name" value="nombre de moto" [(ngModel)]="pname"><br />
+ <label>Categoria:</label>    <input type="text" name="categoria" [(ngModel)]="pcategoria"><br />
+ <label>Motor:</label>        <input type="text" name="motor" [(ngModel)]="pmotor"><br />
+ <label>Description:</label>  <input type="text" name="description" [(ngModel)]="pdescription"><br />
+ <label>Enfriamiento:</label> <input type="text" name="enfriamiento" [(ngModel)]="penfriamiento"><br />
+ <label>Cilindrada:</label>   <input type="text" name="cilindrada" [(ngModel)]="pcilindrada"><br />
+ <label>potencia:</label>     <input type="text" name="potencia" [(ngModel)]="ppotencia"><br />
+ <label>Capacidad:</label>    <input type="text" name="capacidad" [(ngModel)]="pcapacidad"><br />
+ <label>Peso:</label>         <input type="text" name="peso" [(ngModel)]="ppeso"><br />
+ <label>Precio:</label>       <input type="text" name="precio" [(ngModel)]="pprecio"><br />
+ <label>Imagen:</label>       <input type="text" name="imagen" [(ngModel)]="pimagen"><br />
+ 
+
+ 
+
+   </fieldset>
+</div>
+ <button class="btn btn-success" (click)="addMoto()">Agregar</button>
+</form>
+
+</body>
+
+  

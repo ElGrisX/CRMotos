@@ -1,0 +1,20 @@
+
+<div class="row backgroundimage wigth" >
+	
+	<nav class="col-10 routes" id="wrapper">
+		<a [routerLink]= "['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+		<a [routerLink]="['/motos','SPORT']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Sport</a>
+		<a [routerLink]="['/motos','DOBLE_PROPOSITO']"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Doble proposito</a>
+		<a [routerLink]="['/motos','ALTA_CILINDRADA']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Alta cilindrada</a>
+		<a [routerLink]="['/contacto']"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Contacto</a>
+		<a [routerLink]="['/about']"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Acerca de nosotros</a>
+		<a routerLinkActive="active" >{{date  | date:'dd-MM-yyyy'}}</a>
+	</nav>
+
+
+
+	
+
+
+</div>
+

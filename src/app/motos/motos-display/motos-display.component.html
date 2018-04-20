@@ -1,0 +1,23 @@
+<body>
+	
+
+<h1 class="main_container">{{moto.name}} </h1><br> 
+<h2 class="main_container">{{moto.description}}</h2>
+
+
+
+
+<ul class="ul">
+    <li>Motor: {{moto.motor}}</li>
+    <li>Categoria: {{moto.categoria}}</li>
+    <li>Enfriamiento: {{moto.enfriamiento}}</li>
+    <li>cilindrada: {{moto.cilindrada}}</li>
+    <li>capacidad: {{moto.capacidad}}</li>
+    <li>peso: {{moto.peso}}</li>
+    <li>potencia: {{moto.potencia}}</li>
+    <li>precio: {{moto.precio}}</li>
+</ul>
+
+<img class="centrar" [src]="'/assets/' + moto.imagen">
+
+</body>

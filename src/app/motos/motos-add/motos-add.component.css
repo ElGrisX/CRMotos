@@ -1,0 +1,47 @@
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'gothambook';
+    height: auto!important;
+}
+
+
+
+input {
+  display: inline-block;
+  float: left;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+
+button {
+
+
+    
+}
+
+
